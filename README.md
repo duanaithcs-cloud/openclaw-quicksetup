@@ -1,5 +1,7 @@
 # OpenClaw QuickSetup v3 (Telegram + Zalo + ProxyPal)
 
+![OpenClaw QuickSetup Banner](assets/banner.svg)
+
 > Version: **v1.1.0**  
 > Audience: người mới, không chuyên kỹ thuật
 

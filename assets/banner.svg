@@ -1,0 +1,55 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <circle cx="1150" cy="120" r="160" fill="#38BDF8" fill-opacity="0.15"/>
+  <circle cx="180" cy="560" r="220" fill="#34D399" fill-opacity="0.12"/>
+
+  <rect x="70" y="70" width="1140" height="500" rx="28" fill="#0F172A" fill-opacity="0.72" stroke="#334155"/>
+
+  <g filter="url(#shadow)">
+    <rect x="110" y="120" width="530" height="360" rx="18" fill="#020617" stroke="#1E293B"/>
+    <rect x="130" y="152" width="490" height="36" rx="10" fill="#111827"/>
+    <rect x="130" y="204" width="180" height="24" rx="8" fill="url(#chip)"/>
+    <rect x="130" y="238" width="430" height="16" rx="6" fill="#334155"/>
+    <rect x="130" y="268" width="360" height="16" rx="6" fill="#334155"/>
+    <rect x="130" y="298" width="400" height="16" rx="6" fill="#334155"/>
+    <rect x="130" y="336" width="160" height="36" rx="10" fill="#0EA5E9"/>
+    <rect x="300" y="336" width="180" height="36" rx="10" fill="#10B981"/>
+  </g>
+
+  <text x="690" y="205" fill="#E2E8F0" font-family="Segoe UI, Inter, Arial" font-size="54" font-weight="700">
+    OpenClaw QuickSetup
+  </text>
+  <text x="690" y="255" fill="#93C5FD" font-family="Segoe UI, Inter, Arial" font-size="28" font-weight="600">
+    Telegram • Zalo • ProxyPal
+  </text>
+  <text x="690" y="312" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial" font-size="24">
+    Workflow 1-2-3 cho người mới:
+  </text>
+  <text x="690" y="352" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial" font-size="24" font-weight="700">
+    Nhập thông tin → Test kết nối → Cài đặt
+  </text>
+
+  <rect x="690" y="392" width="220" height="44" rx="12" fill="#06B6D4"/>
+  <text x="720" y="422" fill="white" font-family="Segoe UI, Inter, Arial" font-size="22" font-weight="700">
+    v1.1.0
+  </text>
+
+  <text x="70" y="610" fill="#94A3B8" font-family="Segoe UI, Inter, Arial" font-size="18">
+    © 2026 duanaithcs-cloud • openclaw-quicksetup
+  </text>
+</svg>
