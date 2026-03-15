@@ -1,0 +1,10 @@
+﻿# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Runtime outputs
+output/
+
+# Local secrets / config snapshots
+*.bak
+*.token
