@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.1.0 - 2026-03-15
+
+### Added
+- Hoàn thiện bộ tài liệu mã nguồn chuyên nghiệp:
+  - `LICENSE` (MIT)
+  - `CONTRIBUTING.md`
+  - `SECURITY.md`
+- Thêm GitHub Actions CI (`.github/workflows/ci.yml`) để kiểm tra compile code tự động khi push/PR.
+- Tối ưu README theo chuẩn public repo để dễ tiếp cận người dùng mới.
+
 ## v1.0.0 - 2026-03-15
 
 ### Added

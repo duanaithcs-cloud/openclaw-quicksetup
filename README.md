@@ -1,7 +1,10 @@
 # OpenClaw QuickSetup v3 (Telegram + Zalo + ProxyPal)
 
-> Version: **v1.0.0**  
+> Version: **v1.1.0**  
 > Audience: người mới, không chuyên kỹ thuật
+
+Bộ cài đặt nhanh OpenClaw theo workflow 1-2-3: **Nhập thông tin -> Test kết nối -> Cài đặt**.
+
 
 Mục tiêu: tạo **file mồi + giao diện cực dễ** để người mới cài OpenClaw trên máy mới nhanh nhất, có kiểm tra PASS/FAIL trước khi cài.
 
@@ -78,9 +81,17 @@ Bản v2 sẽ tự động:
 ## 5) Đóng gói nhẹ để chia sẻ
 
 Chạy:
-- `python APPS/Projects/46_OpenClaw_QuickSetup/pack_release.py`
+```bash
+python pack_release.py
+```
 
 Gói zip xuất ra:
-- `APPS/Projects/46_OpenClaw_QuickSetup/output/release/openclaw-quicksetup-lite.zip`
+- `output/release/openclaw-quicksetup-lite.zip`
 
 Gói này chỉ gồm file cần thiết để người mới cài nhanh (UI, installer, launcher, README).
+
+## 6) Chất lượng dự án
+- Có `LICENSE` (MIT)
+- Có `CONTRIBUTING.md`
+- Có `SECURITY.md`
+- Có GitHub Action CI kiểm tra compile Python (`.github/workflows/ci.yml`)

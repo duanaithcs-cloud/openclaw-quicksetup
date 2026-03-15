@@ -1,0 +1,2 @@
+# Standard library only by default (tkinter, json, urllib, subprocess)
+# Keep this file for future optional dependencies.
