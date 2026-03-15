@@ -1,5 +1,8 @@
 # OpenClaw QuickSetup v3 (Telegram + Zalo + ProxyPal)
 
+> Version: **v1.0.0**  
+> Audience: người mới, không chuyên kỹ thuật
+
 Mục tiêu: tạo **file mồi + giao diện cực dễ** để người mới cài OpenClaw trên máy mới nhanh nhất, có kiểm tra PASS/FAIL trước khi cài.
 
 ## 1) Cách dùng nhanh (workflow 1-2-3)
